@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void masukkan_kalimat();
+int tambah(int a, int b);
+
+int main ()
+{
+	masukkan_kalimat();
+	cout << "Penjumlahan(50,25) ="<<tambah(50,25)<<endl;
+}
+void masukkan_kalimat (){
+	cout << "Coding Penjumlahan C++"<<endl;
+	cout << "=====Membuat function Prototype====="<<endl;
+}
+int tambah (int a, int b)
+{
+	return a+b;
+}
